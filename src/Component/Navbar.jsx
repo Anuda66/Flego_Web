@@ -13,9 +13,9 @@ function Navbar() {
   const [token, setToken] = useState(false);
 
   return (
-    <div className="bg-primary-200">
+    <div className="fixed top-0 left-0 z-50 w-full bg-primary-200">
     <div className='px-5 md:px-14 sm:px-10'>
-      <div className="flex items-center justify-between py-4 mb-5 text-sm ">
+      <div className="flex items-center justify-between py-4 m-2 text-sm ">
         {/* App Logo---------------------------------- */}
         <Link to="/">
         <h1 className="text-xl font-bold text-secondary">Flego Inovation</h1>
@@ -24,20 +24,20 @@ function Navbar() {
         <ul className="items-start hidden gap-5 font-medium md:flex">
           <NavLink to={"/"}>
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110">Home</li>
-            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary" />
+            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary"/>
           </NavLink>
           <NavLink to={"/about"}>
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110">About</li>
-            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary" />
+            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary"/>
           </NavLink>
           <NavLink to={"/projects"}>
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110">Projects</li>
-            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary" />
+            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary"/>
           </NavLink>
           
           <NavLink to={"/service"}>
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110"> Service</li>
-            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary " />
+            <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary "/>
           </NavLink>
           
           <NavLink to={"/industries"}>
