@@ -14,6 +14,9 @@ export default {
         },
         'secondary': '#2ff18b',
     },
+    borderRadius:{
+      extraLarge:'12rem'
+    },
   },
   plugins: [],
   }
