@@ -3,6 +3,8 @@ import Hero from '../Component/Hero'
 import HeroContact from '../Component/HeroContact'
 import ServiceHeroSection from '../Component/ServiceHeroSection'
 import About from '../Component/About'
+import Servicess from '../Component/Servicess'
+import FuturePlans from '../Component/FuturePlans'
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
       <Hero/>
       <ServiceHeroSection/>
       <About/>
+      <Servicess/>
+      <FuturePlans/>
     </div>
   )
 }

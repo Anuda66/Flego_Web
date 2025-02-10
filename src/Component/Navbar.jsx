@@ -36,7 +36,7 @@ function Navbar() {
           </NavLink>
           
           <NavLink to={"/service"}>
-            <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110"> Service</li>
+            <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110"> Services</li>
             <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary "/>
           </NavLink>
           
