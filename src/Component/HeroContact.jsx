@@ -8,7 +8,7 @@ import { FaEnvelope } from "react-icons/fa6";
 
 function HeroContact() {
   return (
-    <div className='relative flex justify-between h-10 px-5 py-3 mt-20 bg-secondary md:px-14 sm:px-10'>
+    <div   className='relative flex justify-between h-10 px-5 py-3 mt-20 bg-secondary md:px-14 sm:px-10'>
       
       <div className=''>
         <ul className="items-center hidden text-sm sm:block">

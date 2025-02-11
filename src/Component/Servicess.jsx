@@ -33,14 +33,13 @@ function Servicess() {
     },
   ];
 
-  
   const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000
+    autoplaySpeed: 3000,
   };
 
   return (
@@ -56,14 +55,20 @@ function Servicess() {
         your specific needs.
       </p>
 
-        <div className="">
+      <div className="">
         <Slider {...settings}>
           {servicedata.map((item) => {
             return (
               <div className="flex flex-col mt-10">
-                <div className="flex justify-center py-10 text-6xl text-primary-100 ">{item.icon}</div>
-                <div className="pb-8 text-lg font-bold text-center">{item.title}</div>
-                <div className="flex justify-center pb-8 text-sm text-center"><p className="max-w-3xl text-gray-600">{item.discription}</p></div>
+                <div className="flex justify-center py-10 text-6xl text-primary-100 ">
+                 <div className="p-8 border-2 shadow-xl border-primary-100 rounded-xl"> {item.icon}</div>
+                </div>
+                <div className="pb-8 text-lg font-bold text-center">
+                  {item.title}
+                </div>
+                <div className="flex justify-center pb-8 text-sm text-center">
+                  <p className="max-w-3xl text-gray-600">{item.discription}</p>
+                </div>
                 <div className="flex justify-center pb-10">
                   <button
                     onClick={() => {
@@ -78,9 +83,9 @@ function Servicess() {
               </div>
             );
           })}
-          </Slider>
-        </div>
+        </Slider>
       </div>
+    </div>
   );
 }
 

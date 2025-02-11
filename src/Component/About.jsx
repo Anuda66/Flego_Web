@@ -6,7 +6,7 @@ function About() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col flex-wrap px-6 mt-72 md:flex-row md:px-10 lg:px-20 md:mt-48">
+    <div id="about" className="flex flex-col flex-wrap px-6 mt-72 md:flex-row md:px-10 lg:px-20 md:mt-48">
       {/*left side------------------------------------------------------------------ */}
       <div className="flex flex-col md:items-start justify-center gap-4 m-auto md:w-1/2 md:px-0.5 px-3 md:pr-10">
         <p className="text-xl font-semibold leading-tight text-center text-primary-100 md:text-2xl lg:text-3xl md:leading-tight lg:leading-tight md:text-left">

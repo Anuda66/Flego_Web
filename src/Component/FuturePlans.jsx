@@ -1,9 +1,13 @@
 import React from "react";
 import Img2 from "../assets/img2.jpg";
+import { useNavigate } from "react-router-dom";
 
 function FuturePlans() {
+  
+  const navigate = useNavigate();
+  
   return (
-    <div className="flex flex-col flex-wrap px-6 mt-40 md:flex-row md:px-10 lg:px-20 md:mt-40">
+    <div className="flex flex-col flex-wrap px-6 mt-40 mb-16 md:flex-row md:px-10 lg:px-20 md:mt-40">
       {/*left side------------------------------------------------------------------ */}
       <div className="relative md:w-1/2">
         <img
@@ -29,7 +33,7 @@ function FuturePlans() {
         <div className="flex justify-center pb-5 md:pb-0">
           <button
             onClick={() => {
-              navigate("/about");
+              navigate("/futurePlans");
               scrollTo(0, 0);
             }}
             className="px-5 py-2 font-bold text-black transition duration-300 ease-in-out delay-150 border-2 rounded-full md:block hover:-translate-y-1 hover:scale-100 hover:shadow-lg border-primary-50 hover:border-primary-100"
