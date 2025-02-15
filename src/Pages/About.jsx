@@ -1,8 +1,19 @@
 import React from 'react'
+import cover from '../assets/cover.jpg'
+import { IoIosArrowForward } from "react-icons/io";
+
 
 function ABOUT() {
   return (
     <div>
+      <div className='relative flex justify-between h-10 px-5 py-3 mt-20 bg-gray-200 md:px-14 sm:px-10'>
+        <div className='flex flex-row items-center justify-center gap-4'>
+          <p className='text-gray-600'>Home</p> 
+          <IoIosArrowForward className='text-gray-600'/>
+          <p className='font-bold text-gray-600'>About</p> 
+
+        </div>
+      </div>
       <div id="about" className="flex flex-col flex-wrap px-6 mt-72 md:flex-row md:px-10 lg:px-20 md:mt-48">
             {/*left side------------------------------------------------------------------ */}
             <div className="flex flex-col md:items-start justify-center gap-4 m-auto md:w-1/2 md:px-0.5 px-3 md:pr-10">
@@ -36,7 +47,7 @@ function ABOUT() {
             <div className="relative pt-10 md:w-1/2 md:pt-0">
               <img
                 className="bottom-0 w-full h-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge"
-                src={Img1}
+                src={cover}
                 alt="Heder Image"
               />
             </div>
