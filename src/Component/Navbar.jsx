@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate, Link } from "react-router-dom";
-
-import { IoIosArrowDown } from "react-icons/io";
 import { RiMenuUnfold4Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { FaSearch } from "react-icons/fa";
@@ -16,6 +14,7 @@ function Navbar() {
     <div className="fixed top-0 left-0 z-50 w-full bg-primary-200">
     <div className='px-5 md:px-14 sm:px-10'>
       <div className="flex items-center justify-between py-4 m-2 text-sm ">
+        
         {/* App Logo---------------------------------- */}
         <Link to="/">
         <h1 className="text-xl font-bold text-secondary">Flego Inovation</h1>
@@ -44,9 +43,7 @@ function Navbar() {
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110">Industries</li>
             <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary " />
           </NavLink>
-          
-
-          
+        
           <NavLink to={"/futurePlans"}>
             <li className="py-1 text-white transition duration-300 ease-in-out delay-150 hover:text-secondary hover:-translate-y-1 hover:scale-110">Future Plans</li>
             <hr className="hidden w-3/5 h-1 m-auto border-none rounded-full outline-none bg-secondary" />
@@ -64,9 +61,9 @@ function Navbar() {
         <FaSearch className="w-10 text-xl text-white duration-300 ease-in-out delay-150 cursor-pointer hover:-translate-y-1 hover:scale-110 hover:text-secondary "/>
           
            {/*Menu Icon ----------------------------------------*/}
-          <RiMenuUnfold4Fill onClick={()=>setShowMenu(true)} className="w-10 h-6 text-white md:hidden"/>
+          <RiMenuUnfold4Fill onClick={()=>setShowMenu(true)} className="w-10 h-6 text-white lg:hidden"/>
             {/* Mobile menu---------------------------------------------------- */}
-            <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden  transition-all`} style={{ backgroundColor: '#360065'}}>
+            <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} lg:hidden right-0 top-0 bottom-0 z-20 overflow-hidden  transition-all`} style={{ backgroundColor: '#360065'}}>
               <div className="flex items-center justify-between px-5 py-4">
                 {/* App Logo-----------------------------------------------------*/}
               <Link to="/">
