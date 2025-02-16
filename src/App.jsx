@@ -8,6 +8,7 @@ import Industries from './Pages/Industries'
 import FuturePlans from './Pages/FuturePlans'
 import ContactUs from './Pages/ContactUs'
 import Footer from "./Component/Footer"
+import GoToTop from "./Component/GoToTop"
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contactUs" element={<ContactUs/>}/>
       </Routes>
       <Footer/>
+      <GoToTop/>
     </div>
   )
 }
