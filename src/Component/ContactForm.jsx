@@ -37,9 +37,8 @@ function ContactForm() {
         });
       };
 
-
   return (
-    <div className="min-h-screen px-4 py-12 pt-40 -mt-40 bg-gray-100 sm:px-6 lg:px-8">
+    <div className="min-h-screen px-4 py-12 pt-40 pb-32 -mt-40 bg-gray-100 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <h1 className="mb-8 text-3xl font-bold text-center text-primary-100">Let's connect!</h1>
     

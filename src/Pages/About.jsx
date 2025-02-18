@@ -4,10 +4,10 @@ import cover2 from "../assets/cover2.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import Img1 from "../assets/img1.jpg";
 import Img2 from "../assets/Imag3.jpg";
-import Img4 from "../assets/imag4.png"
+import Img4 from "../assets/imag4.png";
 function ABOUT() {
   return (
-    <div >
+    <div>
       {/* Page Navigation section----------------------*/}
       <div className="relative flex justify-between h-10 px-5 py-3 mt-20 bg-gray-300 md:px-14 sm:px-10">
         <div className="flex flex-row items-center justify-center gap-4">
@@ -57,7 +57,7 @@ function ABOUT() {
       </div>
 
       {/* Page containt---------------------------------------*/}
-      
+
       <div
         id="about"
         className="flex flex-col flex-wrap px-6 mb-10 md:flex-row md:px-10 lg:px-20"
@@ -65,7 +65,8 @@ function ABOUT() {
         {/*left side------------------------------------------------------------------ */}
         <div className="flex flex-col md:items-start justify-center gap-4 m-auto md:w-1/2 md:px-0.5 px-3 md:pr-10">
           <p className="text-xl font-semibold leading-tight text-center text-primary-100 md:text-2xl lg:text-3xl md:leading-tight lg:leading-tight md:text-left">
-          At Flego innovation, we're not just a tech company; we're innovators with a vision to redefine the way people interact with technology.
+            At Flego innovation, we're not just a tech company; we're innovators
+            with a vision to redefine the way people interact with technology.
           </p>
 
           <div className="flex flex-col gap-5 text-sm text-center text-gray-600 md:text-left md:items-center md:flex-row md:gap-20">
@@ -77,7 +78,6 @@ function ABOUT() {
               market, and support stakeholders' growth as their own.
             </p>
           </div>
-          
         </div>
         {/*right side------------------------------------------------------------------ */}
         <div className="relative pt-10 md:w-1/2 md:pt-0">
@@ -96,35 +96,43 @@ function ABOUT() {
       >
         {/*right side------------------------------------------------------------------ */}
         <div className="relative flex justify-center pt-10 md:w-1/2 md:pt-0">
-          <img
-            className="bottom-0 w-auto "
-            src={Img4}
-            alt="Heder Image"
-          />
+          <img className="bottom-0 w-auto " src={Img4} alt="Heder Image" />
         </div>
         {/*left side------------------------------------------------------------------ */}
         <div className="flex flex-col justify-center gap-4 px-3 m-auto md:items-start md:w-1/2 md:pr-10 sm:px-5 md:px-10">
-          
           <div className="gap-5 space-y-5 text-sm text-center text-gray-600 md:text-left md:items-center md:flex-row md:gap-20">
             <p>
-            Our mission is to enhance the power of innovation and technology to enrich lives and create a sustainable world to live in.
+              Our mission is to enhance the power of innovation and technology
+              to enrich lives and create a sustainable world to live in.
             </p>
             <p>
-            Our vision is to be a leading innovative software company and progress in our current position in the market. We believe that our stakeholders' growth is our growth, and we are committed to helping them achieve their goals. Sustainability is at the core of everything we do. We strive to be known as a reliable, innovative, and user-friendly technological service provider in the industry.
+              Our vision is to be a leading innovative software company and
+              progress in our current position in the market. We believe that
+              our stakeholders' growth is our growth, and we are committed to
+              helping them achieve their goals. Sustainability is at the core of
+              everything we do. We strive to be known as a reliable, innovative,
+              and user-friendly technological service provider in the industry.
             </p>
             <p>
-            Enhancing the power of innovation and technology to enrich people's lives and create a sustainable world to live in.
+              Enhancing the power of innovation and technology to enrich
+              people's lives and create a sustainable world to live in.
             </p>
             <p>
-            At Flego innovation, we are passionate about leveraging the latest advancements in technology to solve real-world problems and make a positive impact on society. With a focus on innovation, reliability, and user-friendliness, we aim to exceed expectations and set new standards in the industry.
+              At Flego innovation, we are passionate about leveraging the latest
+              advancements in technology to solve real-world problems and make a
+              positive impact on society. With a focus on innovation,
+              reliability, and user-friendliness, we aim to exceed expectations
+              and set new standards in the industry.
             </p>
             <p>
-            Whether it's developing cutting-edge software solutions, providing top-notch technological services, or fostering a culture of sustainability, Flego innovation is dedicated to driving progress and making a difference. Join us on our journey to a brighter, more connected future.
+              Whether it's developing cutting-edge software solutions, providing
+              top-notch technological services, or fostering a culture of
+              sustainability, Flego innovation is dedicated to driving progress
+              and making a difference. Join us on our journey to a brighter,
+              more connected future.
             </p>
           </div>
-          
         </div>
-        
       </div>
     </div>
   );
