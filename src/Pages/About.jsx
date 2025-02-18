@@ -4,9 +4,10 @@ import cover2 from "../assets/cover2.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import Img1 from "../assets/img1.jpg";
 import Img2 from "../assets/Imag3.jpg";
+import Img4 from "../assets/imag4.png"
 function ABOUT() {
   return (
-    <div>
+    <div >
       {/* Page Navigation section----------------------*/}
       <div className="relative flex justify-between h-10 px-5 py-3 mt-20 bg-gray-300 md:px-14 sm:px-10">
         <div className="flex flex-row items-center justify-center gap-4">
@@ -29,8 +30,8 @@ function ABOUT() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Text content container--------------------------------------------------- */}
-        <div className="absolute inset-0 flex flex-col items-center justify-between p-4 md:p-6 lg:p-8">
-          <div className="flex flex-row items-center md:flex-row ">
+        <div className="absolute inset-0 flex flex-col items-center justify-between py-4 md:py-10 lg:py-8 md:px-24">
+          <div className="flex flex-row items-center justify-center md:flex-row ">
             <div>
               {/* Main heading */}
               <h1 className="mb-2 text-2xl font-bold text-center text-white sm:text-2xl md:text-4xl md:mb-4 md:text-left">
@@ -38,7 +39,7 @@ function ABOUT() {
               </h1>
 
               {/* Subtext------------------------------------------------------------------- */}
-              <p className="max-w-xs text-lg text-center text-white sm:max-w-sm md:max-w-lg lg:max-w-2xl">
+              <p className="mb-2 text-sm text-center text-white sm:text-2xl md:mb-4 md:text-left md:text-base">
                 we're innovators with a vision to redefine the way people
                 interact with technology.
               </p>
@@ -46,7 +47,7 @@ function ABOUT() {
 
             <div className="">
               <img
-                className="bottom-0 w-full h-auto rounded rounded-tl-extraLarge md:absolut rounded-bl-extraLarge rounded-tr-extraLarge"
+                className="bottom-0 hidden h-auto rounded rounded-tl-extraLarge md:absolut rounded-bl-extraLarge rounded-tr-extraLarge md:block max-h-80"
                 src={Img1}
                 alt=""
               />
@@ -59,7 +60,7 @@ function ABOUT() {
       
       <div
         id="about"
-        className="flex flex-col flex-wrap px-6 mt-40 md:flex-row md:px-10 lg:px-20 md:mt-"
+        className="flex flex-col flex-wrap px-6 mb-10 md:flex-row md:px-10 lg:px-20"
       >
         {/*left side------------------------------------------------------------------ */}
         <div className="flex flex-col md:items-start justify-center gap-4 m-auto md:w-1/2 md:px-0.5 px-3 md:pr-10">
@@ -76,26 +77,54 @@ function ABOUT() {
               market, and support stakeholders' growth as their own.
             </p>
           </div>
-          <div className="flex justify-center pb-5 md:pb-0">
-            <button
-              onClick={() => {
-                navigate("/about");
-                scrollTo(0, 0);
-              }}
-              className="px-5 py-2 font-bold text-black transition duration-300 ease-in-out delay-150 border-2 rounded-full md:block hover:-translate-y-1 hover:scale-100 hover:shadow-lg border-primary-50 hover:border-primary-100"
-            >
-              Find out more
-            </button>
-          </div>
+          
         </div>
         {/*right side------------------------------------------------------------------ */}
         <div className="relative pt-10 md:w-1/2 md:pt-0">
           <img
-            className="bottom-0 w-full h-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge"
+            className="bottom-0 w-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge max-h-80"
             src={Img2}
             alt="Heder Image"
           />
         </div>
+      </div>
+
+      {/*------------------------------------------------------------------------------*/}
+      <div
+        id="about"
+        className="flex flex-col flex-wrap px-6 my-40 mb-10 md:flex-row md:px-10 lg:px-20"
+      >
+        {/*right side------------------------------------------------------------------ */}
+        <div className="relative flex justify-center pt-10 md:w-1/2 md:pt-0">
+          <img
+            className="bottom-0 w-auto "
+            src={Img4}
+            alt="Heder Image"
+          />
+        </div>
+        {/*left side------------------------------------------------------------------ */}
+        <div className="flex flex-col justify-center gap-4 px-3 m-auto md:items-start md:w-1/2 md:pr-10 sm:px-5 md:px-10">
+          
+          <div className="gap-5 space-y-5 text-sm text-center text-gray-600 md:text-left md:items-center md:flex-row md:gap-20">
+            <p>
+            Our mission is to enhance the power of innovation and technology to enrich lives and create a sustainable world to live in.
+            </p>
+            <p>
+            Our vision is to be a leading innovative software company and progress in our current position in the market. We believe that our stakeholders' growth is our growth, and we are committed to helping them achieve their goals. Sustainability is at the core of everything we do. We strive to be known as a reliable, innovative, and user-friendly technological service provider in the industry.
+            </p>
+            <p>
+            Enhancing the power of innovation and technology to enrich people's lives and create a sustainable world to live in.
+            </p>
+            <p>
+            At Flego innovation, we are passionate about leveraging the latest advancements in technology to solve real-world problems and make a positive impact on society. With a focus on innovation, reliability, and user-friendliness, we aim to exceed expectations and set new standards in the industry.
+            </p>
+            <p>
+            Whether it's developing cutting-edge software solutions, providing top-notch technological services, or fostering a culture of sustainability, Flego innovation is dedicated to driving progress and making a difference. Join us on our journey to a brighter, more connected future.
+            </p>
+          </div>
+          
+        </div>
+        
       </div>
     </div>
   );

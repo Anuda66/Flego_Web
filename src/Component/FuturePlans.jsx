@@ -11,7 +11,7 @@ function FuturePlans() {
       {/*left side------------------------------------------------------------------ */}
       <div className="relative md:w-1/2">
         <img
-          className="bottom-0 w-full h-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge"
+          className="bottom-0 w-auto h-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge max-h-80"
           src={Img2}
           alt="Heder Image"
         />

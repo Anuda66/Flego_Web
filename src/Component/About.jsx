@@ -38,7 +38,7 @@ function About() {
       {/*right side------------------------------------------------------------------ */}
       <div className="relative pt-10 md:w-1/2 md:pt-0">
         <img
-          className="bottom-0 w-full h-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge"
+          className="bottom-0 w-auto h-auto m-auto rounded rounded-tr-extraLarge md:absolut rounded-bl-extraLarge max-h-80"
           src={Img1}
           alt="Heder Image"
         />
