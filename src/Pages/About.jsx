@@ -1,5 +1,4 @@
 import React from "react";
-import cover from "../assets/cover.jpg";
 import cover2 from "../assets/cover2.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import Img1 from "../assets/img1.jpg";
