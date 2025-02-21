@@ -33,11 +33,11 @@ function Industries() {
             <div>
               {/* Main heading */}
               <h1 className="mb-2 text-2xl font-bold text-center text-white sm:text-2xl md:text-4xl md:mb-4 md:text-left">
-                About Flego - delivering amazing Moments of Service
+              Flego Innovation - Industries
               </h1>
 
               {/* Subtext------------------------------------------------------------------- */}
-              <p className="mb-2 text-sm text-center text-white sm:text-2xl md:mb-4 md:text-left md:text-base">
+              <p className="mb-2 text-sm text-center text-white sm:text-2xl md:mb-4 md:text-left md:text-base ">
                 we're innovators with a vision to redefine the way people
                 interact with technology.
               </p>
@@ -54,45 +54,30 @@ function Industries() {
         </div>
       </div>
 
+      {/*Page Containt------------------------------------------------------------------------------ */}
 
       
-
-      <div className="relative w-full px-8 md:px-16">
-        <div className="relative w-full bg-slate-900 rounded-xl">
-          <div className="max-w-6xl p-8 mx-auto md:p-16">
-            <div className="grid items-center justify-between grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2">
-              
-              {/* Image container that breaks out of the main div */}
-              <div className="relative px-8 md:absolute md:-left-16 md:top-1/2 md:-translate-y-1/2 md-px-10">
-                <div className="overflow-hidden transition-transform transform shadow-xl rounded-3xl hover:scale-105">
-                  <img
-                    src={Img2}
-                    alt="Testimonial"
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-              </div>
-
-              {/* Content container with left padding to accommodate the image */}
-              <div className="">
-                {/* Testimonial text */}
-                <p className="mb-8 text-xl leading-relaxed text-white md:text-2xl">
-                  Gravida quam mi erat tortor neque molestie. Auctor aliquet at
-                  porttitor a enim nunc suscipit tincidunt nunc. Et non lorem
-                  tortor posuere. Nunc eu scelerisque interdum eget tellus non
-                  nibh scelerisque bibendum.
-                </p>
-
-                {/* Author info */}
-                <div className="text-white">
-                  <h4 className="text-lg font-semibold">Judith Black</h4>
-                  <p className="text-gray-400">CEO of Workcation</p>
-                </div>
-              </div>
-            </div>
+      <div className="flex px-6 mx-8 my-20 bg-primary-100 rounded-3xl sm:px-10 md:px-14 lg:px-12 md:mx-10">
+        <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-24 lg:pl-5">
+          {/*  left side -------------- */}
+          <div className="text-xl font-semibold text-white sm:text-2xl md:text-3xl lg:text-5xl">
+            <h1 className="text-2xl font-bold text-white">Software Development</h1>
+            <p className="text-sm text-white">
+              At Flego Innovation, we specialize in custom software development tailored to meet the unique needs of your business. Whether you're looking to streamline internal processes, enhance customer experiences, or launch a new digital product, our team of expert developers is here to turn your ideas into reality.
+            </p>
           </div>
         </div>
+        <div className="  md:w-1/2 lg:w-[370px] relative ">
+          {/*  right side -------------- */}
+          <img
+            className="absolute bottom-0 right-0 max-w-md md:h-[300px] lg:h-[300px] hidden md:block"
+            src={Img2}
+            alt="Image"
+          />
+        </div>
       </div>
+
+      
 
     
     </div>

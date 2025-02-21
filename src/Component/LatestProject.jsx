@@ -58,7 +58,7 @@ function LatestProject() {
                 <div className="flex justify-center pb-5 md:pb-0">
                   <button
                     onClick={() => {
-                      navigate("/about");
+                      navigate("/projects");
                       scrollTo(0, 0);
                     }}
                     className="px-5 py-2 font-bold text-white transition duration-300 ease-in-out delay-150 border-2 rounded-full md:block hover:-translate-y-1 hover:scale-100 hover:shadow-lg border-primary-50 hover:border-primary-100"

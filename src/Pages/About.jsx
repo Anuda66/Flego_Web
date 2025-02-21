@@ -100,7 +100,7 @@ function ABOUT() {
         </div>
         {/*left side------------------------------------------------------------------ */}
         <div className="flex flex-col justify-center gap-4 px-3 m-auto md:items-start md:w-1/2 md:pr-10 sm:px-5 md:px-10">
-          <div className="gap-5 space-y-5 text-sm text-center text-gray-600 md:text-left md:items-center md:flex-row md:gap-20">
+          <div className="gap-5 pt-10 space-y-5 text-sm text-center text-gray-600 md:text-left md:items-center md:flex-row md:gap-20 md:pt-0">
             <p>
               Our mission is to enhance the power of innovation and technology
               to enrich lives and create a sustainable world to live in.
