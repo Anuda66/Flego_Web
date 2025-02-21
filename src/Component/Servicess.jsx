@@ -61,7 +61,10 @@ function Servicess() {
             return (
               <div className="flex flex-col mt-10">
                 <div className="flex justify-center py-10 text-6xl text-primary-100 ">
-                 <div className="p-8 border-2 shadow-xl border-primary-100 rounded-xl"> {item.icon}</div>
+                  <div className="p-8 border-2 shadow-xl border-primary-100 rounded-xl">
+                    {" "}
+                    {item.icon}
+                  </div>
                 </div>
                 <div className="pb-8 text-lg font-bold text-center">
                   {item.title}
