@@ -29,7 +29,7 @@ function Hero() {
           <div className="flex flex-row gap-3">
             <a
               className="px-5 py-2 font-bold transition duration-300 ease-in-out delay-150 border-2 rounded-full text-secondary md:block hover:-translate-y-1 hover:scale-100 hover:shadow-lg border-primary-50 hover:border-primary-100"
-              href="#about"
+              href="#service"
             >
               Read More
             </a>

@@ -28,7 +28,7 @@ function ServiceHeroSection() {
       ];
       
   return (
-    <div className="absolute w-full px-4 transform -translate-y-24 md:-translate-y-5">
+    <div id='service' className="absolute w-full px-4 transform -translate-y-24 md:-translate-y-5">
       <div className="mx-auto max-w-7xl ">
         <div className="grid grid-cols-1 md:grid-cols-3">
           {services.map((service, index) => (
