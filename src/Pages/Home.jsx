@@ -5,6 +5,7 @@ import ServiceHeroSection from "../Component/ServiceHeroSection";
 import About from "../Component/About";
 import Servicess from "../Component/Servicess";
 import FuturePlans from "../Component/FuturePlans";
+import LatestProject from "../Component/LatestProject";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <About />
       <Servicess />
       <FuturePlans />
+      <LatestProject/>
     </div>
   );
 }

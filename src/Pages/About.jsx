@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Img1 from "../assets/img1.jpg";
 import Img2 from "../assets/Imag3.jpg";
 import Img4 from "../assets/imag4.png";
+import OurTeam from "../Component/OurTeam";
 function ABOUT() {
   return (
     <div>
@@ -133,6 +134,7 @@ function ABOUT() {
           </div>
         </div>
       </div>
+      <OurTeam/>
     </div>
   );
 }

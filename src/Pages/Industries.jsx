@@ -2,7 +2,7 @@ import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import Img1 from "../assets/img1.jpg";
 import cover2 from "../assets/cover2.jpg";
-
+import Img2 from "../assets/imag4.png";
 function Industries() {
   return (
     <div>
@@ -53,6 +53,48 @@ function Industries() {
           </div>
         </div>
       </div>
+
+
+      
+
+      <div className="relative w-full px-8 md:px-16">
+        <div className="relative w-full bg-slate-900 rounded-xl">
+          <div className="max-w-6xl p-8 mx-auto md:p-16">
+            <div className="grid items-center justify-between grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2">
+              
+              {/* Image container that breaks out of the main div */}
+              <div className="relative px-8 md:absolute md:-left-16 md:top-1/2 md:-translate-y-1/2 md-px-10">
+                <div className="overflow-hidden transition-transform transform shadow-xl rounded-3xl hover:scale-105">
+                  <img
+                    src={Img2}
+                    alt="Testimonial"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+              </div>
+
+              {/* Content container with left padding to accommodate the image */}
+              <div className="">
+                {/* Testimonial text */}
+                <p className="mb-8 text-xl leading-relaxed text-white md:text-2xl">
+                  Gravida quam mi erat tortor neque molestie. Auctor aliquet at
+                  porttitor a enim nunc suscipit tincidunt nunc. Et non lorem
+                  tortor posuere. Nunc eu scelerisque interdum eget tellus non
+                  nibh scelerisque bibendum.
+                </p>
+
+                {/* Author info */}
+                <div className="text-white">
+                  <h4 className="text-lg font-semibold">Judith Black</h4>
+                  <p className="text-gray-400">CEO of Workcation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
     </div>
   );
 }
